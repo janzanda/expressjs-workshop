@@ -1,0 +1,29 @@
+{
+  "name": "expressjs-workshop",
+  "version": "1.0.0",
+  "description": "expressjs workshop app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janzanda/expressjs-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janzanda/expressjs-workshop/issues"
+  },
+  "homepage": "https://github.com/janzanda/expressjs-workshop#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "expressjs": "^1.0.1",
+    "mongodb": "^3.1.10",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
