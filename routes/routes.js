@@ -22,7 +22,7 @@ const func2 = (req, res, next) => {
 module.exports = function(app,db) {
 
     app.get('/', (req,res) => {
-        res.send({data: 'yellow world'})
+        res.send({data: 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa'})
     })
 
     app.post('/register', (req, res) => {
